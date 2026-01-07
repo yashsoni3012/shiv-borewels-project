@@ -1,5 +1,7 @@
 import React from "react";
 import { Phone } from "lucide-react";
+// Import your logo image
+import logo from '../assets/logoImg.png'; // Update this path to match your project structure
 
 export default function ShivBorewellBanner() {
   return (
@@ -24,19 +26,30 @@ export default function ShivBorewellBanner() {
 
       <div className="min-h-screen bg-gray-50">
         {/* Header Section */}
-        <div className="bg-blue-700 text-white py-12 px-4 sm:py-16 md:py-20">
+        <div className="bg-blue-700 text-white py-12 px-4 sm:py-10 md:py-12">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+            {/* Logo */}
+            <div className="flex justify-center mb-6 sm:mb-8">
+              <div className="p-3 sm:p-4">
+                <img 
+                  src={logo} 
+                  alt="Shiv Borewell Agency Logo" 
+                  className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain"
+                />
+              </div>
+            </div>
+
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4">
               शिव बोअरवेल एजन्सी
             </h1>
-            <div className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
+            <div className="text-xl sm:text-2xl md:text-2xl font-semibold mb-6">
               &
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-6">
               शिव पाइल फाउंडेशन कॉन्ट्रॅक्टर पुसद
             </h2>
             <p className="text-base sm:text-lg md:text-xl mt-4">
-              Heavy Drilling & Piling Solutions माथे कॉन्ट्रॅक्टर & स्पेशालिस्ट
+              Heavy Drilling & Piling Solutions मध्ये कॉन्ट्रॅक्टर & स्पेशालिस्ट
             </p>
           </div>
         </div>
@@ -50,9 +63,8 @@ export default function ShivBorewellBanner() {
               <div className="flex animate-marquee whitespace-nowrap">
                 {[...Array(6)].map((_, i) => (
                   <div key={i} className="inline-flex items-center">
-                    <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 px-8">
-                      🚀 २० वर्षांपासून बोअरवेल क्षेत्रात अनुभवी आणि विश्वासनीय
-                      असलेली सेवा 🚀
+                    <h3 className="text-lg sm:text-xl md:text-xl font-semibold text-gray-800 px-8">
+                       २० वर्षांपासून बोअरवेल क्षेत्रात अनुभवी आणि विश्वासनीय असलेली सेवा 
                     </h3>
                     <span className="text-yellow-500 text-2xl mx-4">•</span>
                   </div>
