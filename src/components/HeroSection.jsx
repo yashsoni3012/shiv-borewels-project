@@ -5,7 +5,7 @@ export default function ShivBorewellBanner() {
   return (
     <>
       {/* Add CSS for marquee animation */}
-      <style jsx>{`
+      <style>{`
         @keyframes marquee {
           0% {
             transform: translateX(0);
@@ -15,7 +15,7 @@ export default function ShivBorewellBanner() {
           }
         }
         .animate-marquee {
-          animation: marquee 40s linear infinite;
+          animation: marquee 10s linear infinite;
         }
         .marquee-container:hover .animate-marquee {
           animation-play-state: paused;
