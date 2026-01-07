@@ -3,7 +3,7 @@ import { Check } from 'lucide-react';
 import image1 from '../assets/Bore1.jpg';
 import image2 from '../assets/Inwell1.jpg';
 import image3 from '../assets/pile.webp';
-import image4 from '../assets/new-pile.png';
+import image4 from '../assets/pilling.webp';
 
 export default function ServicesFacilities() {
   const services = [
