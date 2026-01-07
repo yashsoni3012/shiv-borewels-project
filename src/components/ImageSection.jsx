@@ -11,13 +11,13 @@ export default function ServicesFacilities() {
       icon: '✓',
       color: 'text-green-500',
       title: 'ड्रिलिंग श्रेणी:',
-      description: 'जनीनोंर, प्लॉटस आणि बिहिरींमध्ये ४ आणि ६ इंची आडवी आणि उभी बोरिंस.'
+      description: 'जमिनीवर, प्लॉटस आणि विहिरीमध्ये ४ आणि ६ इंची आडवी आणि उभी बोरिंग्स..'
     },
     {
       icon: '✓',
       color: 'text-purple-500',
       title: 'पाइलिंग वैशिष्ट्य:',
-      description: 'अगदी परदेशाच्या किमतीमध्ये',
+      description: 'अगदी परवडणाऱ्या किमतीमध्ये',
       highlight: '४.५०, ६.५०, ७.२५, ९, ११ इंच पाइल्स',
       highlightAfter: 'करून मिळेल'
     },
@@ -25,7 +25,7 @@ export default function ServicesFacilities() {
       icon: '✓',
       color: 'text-green-500',
       title: 'DTH सेवा:',
-      description: 'कठीण माऊलिंग फाउंडेशनसाठी व्यावसायिक DTH ड्रिलिंग.'
+      description: 'कठीण पाईलिंग फाउंडेशनसाठी व्यावसायिक DTH ड्रिलिंग.'
     },
     {
       icon: '✓',
@@ -38,17 +38,17 @@ export default function ServicesFacilities() {
   const gallery = [
     {
       image: image1,
-      title: 'मेढनालात मशीन',
+      title: 'मैदानातील मशीन',
       alt: 'Drilling Machine'
     },
     {
-      image: image2,
+      image: image3,
       title: 'पाइलिंग काम',
       alt: 'Piling Work'
     },
     {
-      image: image3,
-      title: 'आढव ड्रिलिंग',
+      image: image2,
+      title: 'आडवे ड्रिलिंग',
       alt: 'Horizontal Drilling'
     },
     {

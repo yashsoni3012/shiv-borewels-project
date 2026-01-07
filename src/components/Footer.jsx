@@ -19,7 +19,7 @@ export default function LocationContactFooter() {
             {/* Address */}
             <div className="space-y-2">
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
-                केशव इंडियन ऑइल पेट्रोल पंप, शाई मंदिर रोड,
+                केशव इंडियन ऑइल पेट्रोल पंप, साई मंदिर रोड,
               </p>
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
                 पुसद, यवतमाळ, महाराष्ट्र - ४४५२०४
