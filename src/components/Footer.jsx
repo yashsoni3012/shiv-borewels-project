@@ -30,7 +30,7 @@ export default function LocationContactFooter() {
               {/* Google Maps Button */}
               <div className="pt-2 sm:pt-4 px-2">
                 <a
-                  href="https://maps.google.com"
+                  href="https://maps.app.goo.gl/SaHzuf6JmgjSDjoN6"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 sm:gap-3 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-3 px-6 sm:py-4 sm:px-8 md:px-10 lg:px-12 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-auto max-w-md sm:max-w-none"
