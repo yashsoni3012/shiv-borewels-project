@@ -92,7 +92,7 @@ export default function LocationContactFooter() {
 
                   {/* Instagram */}
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/shiv.borewell?igsh=Mng0czR6cWVtdXVq"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transform hover:scale-110 transition-transform duration-300 group"
