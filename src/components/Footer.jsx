@@ -53,14 +53,14 @@ export default function LocationContactFooter() {
                     संपर्क:
                   </p>
                   <div className="mt-2 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-sm sm:text-base md:text-lg lg:text-xl">
-                    <a 
+                    <a
                       href="tel:9850357850"
                       className="hover:text-yellow-300 transition-colors underline sm:no-underline"
                     >
                       9850357850
                     </a>
                     <span className="hidden sm:inline">/</span>
-                    <a 
+                    <a
                       href="tel:9850357885"
                       className="hover:text-yellow-300 transition-colors underline sm:no-underline"
                     >
@@ -120,8 +120,7 @@ export default function LocationContactFooter() {
         <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">
-              © {new Date().getFullYear()} Shiv Borewells & Foundation | Trusted
-              in Maharashtra
+              © {new Date().getFullYear()} Shiv Borewells & Foundation | Trusted in Maharashtra
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Phone } from "lucide-react";
 // Import your logo image
-import logo from "../assets/logoImg.png"; // Update this path to match your project structure
+import logo from "/logoImg.png"; // Update this path to match your project structure
 
 export default function ShivBorewellBanner() {
   return (
